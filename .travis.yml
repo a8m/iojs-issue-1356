@@ -1,0 +1,8 @@
+language: node_js
+script: NODE_PATH=src node -p "require('.')"
+node_js:
+- '0.10'
+- 'iojs-v1.2.0'
+- 'iojs-v1.6.1'
+- 'iojs-v1.6.2'
+sudo: false
